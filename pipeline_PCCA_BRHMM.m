@@ -15,7 +15,7 @@
 % This pipeline must be adapted to your particular configuration of files.
 %
 % Sonsoles Alonso Martinez
-% Aarhus University, October 2023
+% Aarhus University, January 2023
 %%%%%%%%%%%%%%%%%%%%%%%%%
 
 mypath = pwd;
