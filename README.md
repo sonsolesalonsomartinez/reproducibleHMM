@@ -1,6 +1,6 @@
-# PCCA_BRHMM
+# reproducibleHMM
 
-Code used in Alonso Martinez et al. (2023) "Stability of dynamic FC
+Code used in Alonso Martinez et al. (2023) "Towards stability of dynamic FC
 estimates in neuroimaging and electrophysiology: solutions and limits"
 
 This script requires the HMM-MAR toolbox (available at
