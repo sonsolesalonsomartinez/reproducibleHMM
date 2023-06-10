@@ -9,22 +9,6 @@ The research investigates the stability of dynamic functional connectivity (FC) 
 - best-ranked HMM (BR-HMM), involves running the inference multiple times and selecting the best model based on a quantitative measure combining fitness and model complexity.
 - hierarchical clustered HMM (HC-HMM), generates stable aggregated state timeseries by applying hierarchical clustering to the state timeseries obtained from multiple runs.
 
-## Requirements
-
-- This script requires the HMM-MAR toolbox, available at [https://github.com/OHBA-analysis/HMM-MAR](https://github.com/OHBA-analysis/HMM-MAR).
-
-
-## Usage
-
-This script assumes that all the preprocessing has been done and provides the main pipeline for analyzing the time series data.
-
-### Input
-
-- `X`: Observations; 1xN cell containing the time series per subject.
-- `T`: Length of time series; 1xN cell containing the lengths of the time series.
-
-### Description
-
 ![Graphical summary](figure.png)
 
 **Figure 1:** Graphical summary of two approaches (BR-HMM and HC-HMM) to achieve reliable patterns of time-varying FC.
@@ -37,6 +21,19 @@ d) HC-HMM approach involves running the HMM multiple times (R) and clustering th
 BR-HMM: Best-ranked HMM; HC-HMM: Hierarchical-clustered HMM; HMM: hidden Markov model(ling).
 
 ---
+
+## Requirements
+
+- This script requires the HMM-MAR toolbox, available at [https://github.com/OHBA-analysis/HMM-MAR](https://github.com/OHBA-analysis/HMM-MAR).
+
+## Usage
+
+This script assumes that all the preprocessing has been done and provides the main pipeline for analyzing the time series data.
+
+### Input
+
+- `X`: Observations; 1xN cell containing the time series per subject.
+- `T`: Length of time series; 1xN cell containing the lengths of the time series.
 
 ## Contact
 
