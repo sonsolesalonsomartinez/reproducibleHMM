@@ -10,7 +10,8 @@ The research investigates the stability of dynamic functional connectivity (FC) 
 - hierarchical clustered HMM (HC-HMM), generates stable aggregated state timeseries by applying hierarchical clustering to the state timeseries obtained from multiple runs.
 
 
-**Figure 1:** Graphical summary of two approaches (BR-HMM and HC-HMM) to achieve reliable patterns of time-varying FC.
+
+**Graphical summary of two approaches (BR-HMM and HC-HMM) to achieve reliable patterns of time-varying FC.**
 
 ![Graphical summary](figure.png)
 
