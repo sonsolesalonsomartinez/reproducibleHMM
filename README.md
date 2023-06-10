@@ -9,7 +9,7 @@ The research investigates the stability of dynamic functional connectivity (FC) 
 - best-ranked HMM (BR-HMM), involves running the inference multiple times and selecting the best model based on a quantitative measure combining fitness and model complexity.
 - hierarchical clustered HMM (HC-HMM), generates stable aggregated state timeseries by applying hierarchical clustering to the state timeseries obtained from multiple runs.
 
----
+
 **Figure 1:** Graphical summary of two approaches (BR-HMM and HC-HMM) to achieve reliable patterns of time-varying FC.
 
 ![Graphical summary](figure.png)
@@ -22,6 +22,7 @@ d) HC-HMM approach involves running the HMM multiple times (R) and clustering th
 BR-HMM: Best-ranked HMM; HC-HMM: Hierarchical-clustered HMM; HMM: hidden Markov model(ling).
 
 ---
+
 
 ## Requirements
 
